@@ -1,0 +1,1460 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project usePreviewPrefix="1" type="Local" previewPrefix="http://www/francescagiordano.com" name="francescagiordano.co.uk" encoding="iso 8859-1" >
+    <upload/>
+    <defaultDTD>-//w3c//dtd xhtml 1.0 strict//en</defaultDTD>
+    <debuggers>
+      <Gubed>
+        <serverhost>www</serverhost>
+        <serverport>8026</serverport>
+        <localbasedir>/home/james/websites</localbasedir>
+        <serverbasedir>/</serverbasedir>
+        <useproxy>0</useproxy>
+        <listenport>8016</listenport>
+        <displaydelay>0</displaydelay>
+        <errormask>0</errormask>
+      </Gubed>
+    </debuggers>
+    <item url="" uploadstatus="1" />
+    <item modified_time="1122238815" url="templates/francescagiordano.php" uploadstatus="1" />
+    <item url="templates/" uploadstatus="1" />
+    <item url="images/" uploadstatus="1" />
+    <item url="images/articles/" uploadstatus="1" />
+    <item modified_time="1117122496" url="templates/menu.php" uploadstatus="1" />
+    <item modified_time="1119752274" url="templates/template-processing.php" uploadstatus="1" />
+    <item url="working/" uploadstatus="1" />
+    <item modified_time="1116774271" url="templates/francescagiordano-switcher.php" uploadstatus="1" />
+    <item modified_time="1122238073" url="templates/francescagiordano.css" uploadstatus="1" />
+    <item url="working/page-header.xcf" uploadstatus="1" />
+    <item modified_time="1122217377" url="articles.htm" uploadstatus="1" />
+    <item modified_time="1122217305" url="data/articles.php" uploadstatus="1" />
+    <item url="data/" uploadstatus="1" />
+    <item modified_time="1119835006" url="bikes.htm" uploadstatus="1" />
+    <item url="images/bikes/" uploadstatus="1" />
+    <item url="images/bikes/kawasaki-tt-1.jpg" uploadstatus="1" />
+    <item url="images/bikes/kawasaki-tt-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/suzuki.jpg" uploadstatus="1" />
+    <item url="include/" uploadstatus="1" />
+    <item modified_time="1119378178" url="include/debug.php" uploadstatus="1" />
+    <item url="working/articles-scans/" uploadstatus="1" />
+    <item url="working/articles-scans/merged/" uploadstatus="1" />
+    <item url="working/articles-scans/merged/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/bike-magazine_no-bimbo.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/daily-mail_fast-lady-on-the-isle-of-man.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/daily-star_real-shortage-of-man-material.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/daily-telegraph_lethers-lipstick-and-two-wheel-passion.png" uploadstatus="1" />
+    <item url="working/articles-scans/merged/ecco.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/ecco.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/il-messaggero_donne-con-le-gomme.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/il-messaggero_donne-con-le-gomme.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/il-personaggio_francesca-romana-giordano.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/il-personaggio_francesca-romana-giordano.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/irish-racer_feminine-touch-for-road-racing.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/mail-on-sunday_the-fast-lady-who-knows-no-fear.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/no-bimbo.htm" uploadstatus="1" />
+    <item url="working/articles-scans/merged/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/sunday-telegraph_thrill-of-the-tt-chase.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/merged/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/merged/sunday-times_revved-up-and-ready-to-ride.xcf" uploadstatus="1" />
+    <item url="working/articles-scans/BIMBO1.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/BIMBO2.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/BIMBO3.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/DAILYMAIL1.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/DAILYMAIL2.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/ECCO.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/irish1300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/irish300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/mail300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/MESSAGGERO1.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/MESSAGGERO2.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/PINGPONG.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/star1300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/star300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/stelegr1300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/stelegr300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/telegr300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/times1300.jpg" uploadstatus="1" />
+    <item url="working/articles-scans/times300.jpg" uploadstatus="1" />
+    <item url="working/articles-text/" uploadstatus="1" />
+    <item url="working/articles-text/*bike.txt" uploadstatus="1" />
+    <item url="working/articles-text/*dailymail.txt" uploadstatus="1" />
+    <item url="working/articles-text/*irish bike.txt" uploadstatus="1" />
+    <item url="working/articles-text/*mailonsunday.txt" uploadstatus="1" />
+    <item url="working/articles-text/star-find-pic.txt" uploadstatus="1" />
+    <item url="working/articles-text/sundaytelegr1.rtf" uploadstatus="1" />
+    <item url="working/articles-text/sundaytelegr2.rtf" uploadstatus="1" />
+    <item url="working/articles-text/sundaytelegr3.rtf" uploadstatus="1" />
+    <item url="working/articles-text/sundaytimes1.rtf" uploadstatus="1" />
+    <item url="working/articles-text/sundaytimes2.rtf" uploadstatus="1" />
+    <item url="working/articles-text/*TELEGR_OCR1.rtf" uploadstatus="1" />
+    <item url="working/old-site/" uploadstatus="1" />
+    <item url="working/old-site/Assets/" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/capir70.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/oliver30.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock01.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock02.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock03.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock04.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock05.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock06.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock08.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock09.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock10.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock11.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/padock12.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/rider01.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/rider02.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/rider03.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/rider06.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/rider08.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/steve25.png" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/steve70.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/steve.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/studio10.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/team01.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/team03.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/team08.jpg" uploadstatus="1" />
+    <item url="working/old-site/Assets/Images/team09.jpg" uploadstatus="1" />
+    <item url="working/old-site/_notes/" uploadstatus="1" />
+    <item url="working/old-site/_notes/dwSiteColumnsMe.xml" uploadstatus="1" />
+    <item url="working/old-site/Templates/" uploadstatus="1" />
+    <item url="working/old-site/Templates/activity.dwt" uploadstatus="1" />
+    <item url="working/old-site/Templates/first.css" uploadstatus="1" />
+    <item url="working/old-site/Templates/sample01.dwt" uploadstatus="1" />
+    <item url="working/old-site/Templates/sample.dwt" uploadstatus="1" />
+    <item url="working/old-site/articles.htm" uploadstatus="1" />
+    <item url="working/old-site/colours.htm" uploadstatus="1" />
+    <item url="working/old-site/colours.psd" uploadstatus="1" />
+    <item url="working/old-site/content.htm" uploadstatus="1" />
+    <item url="working/old-site/first.htm" uploadstatus="1" />
+    <item url="working/old-site/home.htm" uploadstatus="1" />
+    <item url="working/old-site/index.htm" uploadstatus="1" />
+    <item url="working/old-site/list.htm" uploadstatus="1" />
+    <item url="working/old-site/main.htm" uploadstatus="1" />
+    <item url="working/old-site/mystyle.css" uploadstatus="1" />
+    <item url="working/old-site/paddock.htm" uploadstatus="1" />
+    <item url="working/old-site/pages.css" uploadstatus="1" />
+    <item url="working/old-site/people01.htm" uploadstatus="1" />
+    <item url="working/old-site/people.htm" uploadstatus="1" />
+    <item url="working/old-site/practice.htm" uploadstatus="1" />
+    <item url="working/old-site/rider.htm" uploadstatus="1" />
+    <item url="working/old-site/team.htm" uploadstatus="1" />
+    <item url="working/old-site/title.htm" uploadstatus="1" />
+    <item url="working/old-site/untitled.htm" uploadstatus="1" />
+    <item url=".htaccess" uploadstatus="1" />
+    <item modified_time="1122171871" url="photo.php" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <item url="working/page-header-bike.xcf" uploadstatus="1" />
+    <item url="working/page-header-francesca.xcf" uploadstatus="1" />
+    <item modified_time="1122223028" url="templates/francescagiordano-ie-only.css" uploadstatus="1" />
+    <item modified_time="1119852449" url="include/dropdown.js" uploadstatus="1" />
+    <item modified_time="1122168841" url="include/photobike.php" uploadstatus="1" />
+    <item modified_time="1119747667" url="team-cagiva.htm" uploadstatus="1" />
+    <item modified_time="1119749578" url="team-aprilia.htm" uploadstatus="1" />
+    <item modified_time="1122171302" url="people.htm" uploadstatus="1" />
+    <item url="center-float.htm" uploadstatus="1" />
+    <item url="data/articles-backup.php" uploadstatus="1" />
+    <item url="images/adm/" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/giancarlo-falappa-and-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/with-emanuela-folliero-and-giuseppe-ballabene.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/with-giacomo-agostini-and-giuseppe.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/with-scalpi.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm01.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm02.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm03.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm04.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm05.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm-fabrizio-pirovano-1.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm-fabrizio-pirovano-2.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/adm-with-michele-malatesta.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/" uploadstatus="1" />
+    <item url="images/adm/other-events/regional-event-italy.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/" uploadstatus="1" />
+    <item url="images/articles/adm/text/" uploadstatus="1" />
+    <item url="images/articles/adm/text/bikers-life_associazione_difesa_moto.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/in-moto_ancora_un_iniziativa.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/irish-bike_mccaughey_joins_elite_organisation.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motociclismo_la_notte_della_moto.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_difendiamoci.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_educazione_innanzitutto.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_la_moto_si_ribella_in_parlamento.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_l_associazione_difesa_moto_sbarca_in_inghilterra.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_l'unione_fa_la_forza.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_telemoto.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/motosprint_un_associazione_da_salvaguardare.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/the-tyrone-times_another-honour-for-baylon.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/tuttomoto_in_difesa_dei_motociclisti.txt" uploadstatus="1" />
+    <item url="images/articles/adm/text/tuttomoto_in_difesa_della_moto_in_tutti_i_suoi_aspetti.txt" uploadstatus="1" />
+    <item url="images/articles/adm/bikers-life_associazione-difesa-moto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/in-moto_ancora-un-iniziativa.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/irish-bike_mccaughey-joins-elite-organisation.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motociclismo_la-notte-della-moto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_difendiamoci.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_educazione-innanzitutto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_la-moto-si-ribella-in-parlamento.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_l-associazione-difesa-moto-sbarca-in-inghilterra.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_l-unione-fa-la-forza.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_telemoto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_un-associazione-da-salvaguardare.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/testo-interrogazione-parlamentare.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/the-tyrone-times_another-honour-for-baylon.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/tuttomoto_in-difesa-della-moto-in-tutti-i-suoi-aspetti.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/" uploadstatus="1" />
+    <item url="images/articles/italian/caravan-e-camper_amore-a-prima-pista.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/corriere-dello-sport_la_bellissima.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/ecco_la-piu-matta-di-noi-due.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/il-messaggero_donne-con-le-gomme.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/il-personaggio_francesca-romana-giordano.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/la-gazzetta-dello-sport_supersfida-di-francesca-giordano.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/motosprint_la-bella-e-la-bestia.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/order.txt" uploadstatus="1" />
+    <item url="images/articles/italian/riccioli_al_vento.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/stop-magazine_provo-il-brivido-della-passione-solo-quando-corro-come-il-vento.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/" uploadstatus="1" />
+    <item url="images/articles/racing/article-in-japanese.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/manx-independent_francesca-woman-in-love-with-the-tt-aura.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/text/" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/text/tuttomoto_september_1996.txt" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/text/tuttomoto_steve_hislop.txt" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/tuttomoto_tt_96.jpg" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/tuttomoto_tt_97.jpg" uploadstatus="1" />
+    <item url="images/bikes/irish-bike.jpg" uploadstatus="1" />
+    <item url="images/bikes/with-aprilia-and-motorcaravan.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha-350-tzr.jpg" uploadstatus="1" />
+    <item url="images/people/" uploadstatus="1" />
+    <item url="images/people/domiziana/" uploadstatus="1" />
+    <item url="images/people/domiziana/domiziana-1.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/domiziana-2.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/domiziana-3.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/domiziana-4.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/domiziana-5.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/domiziana-6.jpg" uploadstatus="1" />
+    <item url="images/rider/" uploadstatus="1" />
+    <item url="images/team/" uploadstatus="1" />
+    <item url="images/team/team-aprilia/" uploadstatus="1" />
+    <item url="images/team/team-aprilia/practicing01.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/practicing02.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-01.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-02.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-03.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-04.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-05.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-06.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-07.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-life-08.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/team-practicing.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva01.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva02.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva03.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva04.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva05.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva06.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva07.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva08.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva112.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva113.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva114.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva115.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva116.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/cagiva117.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/dad-and-team.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock001.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock002.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock003.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock005.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock006.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock007.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock008.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock110.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock18.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/paddock19.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/skerries-start.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/corkills.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/paddock-tt-92.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/ulster-grand-prix/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/ulster-grand-prix/with-nick-jefferies-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item modified_time="1122173914" url="include/thumbnail-generator.php" uploadstatus="1" />
+    <item url="working/adm/" uploadstatus="1" />
+    <item url="working/adm/adm_articles/" uploadstatus="1" />
+    <item url="working/adm/adm_articles/bikers-life_associazione_difesa_moto.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/in-moto_ancora_un_iniziativa.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/irish-bike_mccaughey_joins_elite_organisation.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motociclismo_la_notte_della_moto.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_difendiamoci.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_educazione_innanzitutto.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_la_moto_si_ribella_in_parlamento.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_l_associazione_difesa_moto_sbarca_in_inghilterra.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_l_unione_fa_la_forza.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_telemoto.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/motosprint_un_associazione_da_salvaguardare.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/testo_interrogazione_parlamentare.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/the-tyrone-times_another-honour-for-baylon.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/tuttomoto_in_difesa_dei_motociclisti.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles/tuttomoto_in_difesa_della_moto_in_tutti_i_suoi_aspetti.jpg" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/bikers-life_associazione_difesa_moto.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/in-moto_ancora_un_iniziativa.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motociclismo_la_notte_della_moto.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motosprint_difendiamoci.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motosprint_educazione_innanzitutto.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motosprint_la_moto_si_ribella_in_parlamento.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motosprint_l'unione_fa_la_forza.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motosprint_telemoto.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/motosprint_un_associazione_da_salvaguardare.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/tuttomoto_in_difesa_dei_motociclisti.txt" uploadstatus="1" />
+    <item url="working/adm/adm_articles_text/tuttomoto_in_difesa_della_moto_in_tutti_i_suoi_aspetti.txt" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/giacomo_agostini_and_daniele_agrat.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/giancarlo_falappa_and_giacomo_agostini.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/invite01.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/invite02.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/with_emanuela_folliero_and_giuseppe_ballabene.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/with_giacomo_agostini_and_giuseppe.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/with_giacomo agostini.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/with_marco_papa_and_giancarlo_fala.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/with_scalpi.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm01.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm02.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm03.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm04.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm05.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm_fabrizio_pirovano_1.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm_fabrizio_pirovano_2.jpg" uploadstatus="1" />
+    <item url="working/adm/Milan Bike Exibition/adm_with_michele_malatesta.jpg" uploadstatus="1" />
+    <item url="working/adm/Other Events/" uploadstatus="1" />
+    <item url="working/adm/Other Events/petersborough_ bmf_rally_1.jpg" uploadstatus="1" />
+    <item url="working/adm/Other Events/petersborough_ bmf_rally_2.jpg" uploadstatus="1" />
+    <item url="working/adm/Other Events/regional_event_italy.jpg" uploadstatus="1" />
+    <item url="working/adm/Other Events/with_don_lewis_president_ema_in_norway.jpg" uploadstatus="1" />
+    <item url="working/adm/Other Events/with_nick_jefferies_at_the_ulster_grand_prix.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/bike.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/dailymail.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/irish bike.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/mailonsunday.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/manx-francesca_woman_in_love_with_the_tt_aura.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/manx-more_favourable_press_for_the_tt.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/star.txt" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/sundaytelegr1.rtf" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/sundaytelegr2.rtf" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/sundaytelegr3.rtf" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/sundaytimes1.rtf" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/sundaytimes2.rtf" uploadstatus="1" />
+    <item url="working/photos-backup/articles text/TELEGR_OCR1.rtf" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/processed/with_aprilia_and_motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/processed/with_aprilia_tt_92.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/processed/with_triumph_srx_mono.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/with_aprilia_and_motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/with_aprilia.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/with_aprilia_tt_92.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/with cagiva2.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/with cagiva.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/with_triumph_srx_mono.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bike_and_rider/yamaha3.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/aprilia.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/cagiva-2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/kawasaki-tt-1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/kawasaki-tt-2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/skerries-bike.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/skerries-start.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/suzuki.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/yamaha1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/yamaha2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/yamaha3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/thumbs/yamaha4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/aprilia.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/cagiva-2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/images.html" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/kawasaki-tt-1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/kawasaki-tt-2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/skerries-bike.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/skerries-start.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/suzuki.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/yamaha1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/yamaha2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/yamaha3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/web/yamaha4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha resized 600w/" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha resized 600w/kawasaki2-tt_resized.gif" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha resized 600w/yamaha2_resized.gif" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha resized 600w/yamaha4_resized.gif" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/aprilia.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/kawasaki1 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/kawasaki2 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/skerries bike.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/skerries start.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/suzuki.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/with cagiva2.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/with cagiva.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/bikes/yamaha4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Ducati/" uploadstatus="1" />
+    <item url="working/photos-backup/Ireland/" uploadstatus="1" />
+    <item url="working/photos-backup/Ireland/skerries bike.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Ireland/skerries start.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/menu/" uploadstatus="1" />
+    <item url="working/photos-backup/menu/menu_paddock.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/menu/menu_people.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/menu/menu_TT.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/paddock01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/paddock02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/paddock_ferring.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/paddock_number.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/paddock_scrutiny.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/processed/paddock_tt_92.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/paddock01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/paddock02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/paddock_ferring.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/paddock_number.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/paddock_scrutiny.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/paddock/paddock_tt_92.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/giacomo agostini 2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/giacomo agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/giancarlo_falappa_and_giacomo_agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/loris &amp; fausto.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_armando_errico.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_domiziana.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_emanuela_folliero_and_giuseppe_ballabene.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_enzo_guglielmetti_and_franco_lenci.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_giacomo agostini 2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_giacomo agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_jeoff_duke.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_loris_capirossi_and_fausto_gresini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_steve_hislop_at_creg_ny_baa.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/processed/with_steve_hislop.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/giacomo agostini 2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/giacomo agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/giancarlo_falappa_and_giacomo_agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/loris &amp; fausto.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_armando_errico.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_domiziana.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_emanuela_folliero_and_giuseppe_ballabene.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_enzo_guglielmetti_and_franco_lenci.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_giacomo agostini 2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_giacomo agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_jeoff_duke.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_loris_capirossi_and_fausto_gresini.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_steve_hislop_at_creg_ny_baa.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/people/with_steve_hislop.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/processed/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/processed/motor01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/processed/motor02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/processed/racing08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/processed/totip70.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/motor01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/motor02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/motor3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/motor4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/oliver01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/oliver02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/oliver74.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/racing08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_old/totip70.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/motor01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/motor02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/motor3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/motor4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/oliver01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/oliver02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/oliver74.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/racing08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/photo_racing_unused/totip70.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/processed/practicing01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/processed/practicing02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/processed/team_practicing.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/practicing01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/practicing02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing/team_practicing.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing_aprilia/" uploadstatus="1" />
+    <item url="working/photos-backup/practicing_aprilia/practicing01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing_aprilia/practicing02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/practicing_aprilia/team_practicing.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva03.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva04.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva05.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva06.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva07.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva112.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva113.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva114.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva115.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva116.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/cagiva117.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/processed/dad_and_team.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva03.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva04.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva05.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva06.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva07.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva112.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva113.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva114.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva115.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva116.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/cagiva117.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/race_cagiva/dad_and_team.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/irish bike2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/irish bike.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/manx-independent1_francesca woman in love with the tt aura.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/manx-independent2_francesca woman in love with the tt aura.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/manx-more_favourable_press_for_the_TT.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/manx_ wired_for_sound.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/1 Racing articles/tabletennis.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_96_1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_96_2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_96_3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_96_4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_96_5.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_96_6.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_97_1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_97_2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_97_3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_97_4.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/Tuttomoto/tuttomoto_tt_97_5.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/BIMBO1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/BIMBO2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/BIMBO3.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/DAILYMAIL1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/DAILYMAIL2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/ECCO.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/irish1300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/irish300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/mail300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/MESSAGGERO1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/MESSAGGERO2.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/PINGPONG.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/star1300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/star300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/stelegr1300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/stelegr300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/telegr300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/times1300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/Racing articles/times300.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/gym.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/rider11.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/rider12.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/rider1.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/star.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/processed/totip.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/gym.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/rider/rider11.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/rider12.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/rider1.JPG" uploadstatus="1" />
+    <item url="working/photos-backup/rider/star.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/rider/totip.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/shots/" uploadstatus="1" />
+    <item url="working/photos-backup/shots/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/shots/processed/nicola1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/shots/nicola1.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/sorted/" uploadstatus="1" />
+    <item url="working/photos-backup/sorted/bikes/" uploadstatus="1" />
+    <item url="working/photos-backup/still_bikes/" uploadstatus="1" />
+    <item url="working/photos-backup/still_bikes/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/still_bikes/processed/bikes_cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/still_bikes/processed/yamaha_350_tzr.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/still_bikes/bikes_cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/still_bikes/yamaha_350_tzr.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_all.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_03.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_04.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_05.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_06.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_07.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/processed/team_life_08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_all.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_01.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_02.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_03.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_04.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_05.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_06.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_07.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_bentivogli/team_life_08.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock001.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock002.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock003.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock005.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock006.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock007.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock008.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock110.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock18.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/processed/paddock19.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock001.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock002.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock003.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock005.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock006.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock007.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock008.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock110.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock18.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/team_munda_motors/paddock19.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/" uploadstatus="1" />
+    <item url="working/photos-backup/TT/processed/" uploadstatus="1" />
+    <item url="working/photos-backup/TT/processed/corkills.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/processed/kawasaki1 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/processed/kawasaki2 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/processed/yamaha_TT.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/corkills.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/kawasaki1 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/kawasaki2 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-backup/TT/yamaha_TT.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/bikers-life_associazione-difesa-moto.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/in-moto_ancora-un-iniziativa.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/irish-bike_mccaughey-joins-elite-organisation.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motociclismo_la-notte-della-moto.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_difendiamoci.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_educazione-innanzitutto.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_la-moto-si-ribella-in-parlamento.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_l-associazione-difesa-moto-sbarca-in-inghilterra.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_l-unione-fa-la-forza.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_telemoto.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/motosprint_un-associazione-da-salvaguardare.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/testo-interrogazione-parlamentare.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/the-tyrone-times_another-honour-for-baylon.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles/tuttomoto_in-difesa-della-moto-in-tutti-i-suoi-aspetti.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/bikers-life_associazione_difesa_moto.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/in-moto_ancora_un_iniziativa.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/irish-bike_mccaughey_joins_elite_organisation.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motociclismo_la_notte_della_moto.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_difendiamoci.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_educazione_innanzitutto.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_la_moto_si_ribella_in_parlamento.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_l_associazione_difesa_moto_sbarca_in_inghilterra.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_l'unione_fa_la_forza.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_telemoto.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/motosprint_un_associazione_da_salvaguardare.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/the-tyrone-times_another-honour-for-baylon.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/tuttomoto_in_difesa_dei_motociclisti.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/adm_articles_text/tuttomoto_in_difesa_della_moto_in_tutti_i_suoi_aspetti.txt" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/giacomo-agostini-and-daniele-agrat.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/giancarlo-falappa-and-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/invite01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/with-emanuela-folliero-and-giuseppe-ballabene.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/with-giacomo-agostini2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/with-giacomo-agostini-and-giuseppe.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/with-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/with-marco-papa-and-giancarlo-fala.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/La Notte della Moto/with-scalpi.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm03.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm04.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm05.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm-fabrizio-pirovano-1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm-fabrizio-pirovano-2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Milan Bike Exibition/adm-with-michele-malatesta.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Other Events/" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Other Events/petersborough-bmf-rally-1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Other Events/petersborough-bmf-rally-2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Other Events/regional-event-italy.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Other Events/with-don-lewis-president-ema-in-norway.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/adm/Other Events/with-nick-jefferies-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/adm_text_articles/" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/adm_text_articles/joining_ema_text.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/adm_text_articles/motosprint_pilota_e_presidente_all.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/menu/" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/menu/menu_adm.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/menu/menu_paddock.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/menu/menu_people.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/menu/menu_TT.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/motor01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/motor02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/motor3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/motor4.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/oliver01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/oliver02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/oliver74.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/racing08.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/photo_racing_old/totip70.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/bikes_cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/irish_bike_1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/trophy_with_cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/with_aprilia_and_motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/yamaha_350_tzr.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Archive/still_bikes/yamaha3.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/giordano_sisters-1200.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/giordano_sisters.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/irish-bike_the-skerries-experence.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/japanese.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/manx-independent_francesca-woman-in-love-with-the-tt-aura.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/manx_more-favourable-press-for-the-TT.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/manx_ wired-for-sound.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/1 Racing articles/the_northern_standard.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/bike.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/dailymail.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/giordano_sisters.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/irish-bike_the_feminine_touch_for_road_racing.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/mailonsunday.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/manx-francesca_woman_in_love_with_the_tt_aura.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/manx-more_favourable_press_for_the_tt.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/riccioli_al_vento.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/star.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/sundaytelegr1.rtf" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/sundaytelegr2.rtf" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/sundaytelegr3.rtf" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/sundaytimes1.rtf" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/sundaytimes2.rtf" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/articles text/TELEGR_OCR1.rtf" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/ecco.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/il-messaggero_donne-con-le-gomme.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/il-personaggio_francesca-romana-giordano.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bigthumbs/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/ecco.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/il-messaggero_donne-con-le-gomme.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/il-personaggio_francesca-romana-giordano.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/smallthumbs/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/edited by jamie/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/caravan-e-camper_amore-a-prima-pista.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/corriere-dello-sport_la_bellissima.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/ecco_la-piu-matta-di-noi-due.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/il-messaggero_donne-con-le-gomme.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/il-personaggio_francesca-romana-giordano.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/la-gazzetta-dello-sport_donne_contro_in_pista_e_fuori.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/la-gazzetta-dello-sport_supersfida-di-francesca-giordano.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/motosprint_la-bella-e-la-bestia.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/order.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/riccioli_al_vento.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles/stop-magazine_provo-il-brivido-della-passione-solo-quando-corro-come-il-vento.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/caravan-e-camper_amore_a_prima_pista.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/corriere-dello-sport_la_bellissima.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/Ecco_la_piu_matta_di_noi_due.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/il-messaggero_donne_con_le_gomme.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/il-personaggio__francesca_romana_giordano.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/motosprint_la_bella_e_la_bestia.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Italian articles text/tabletennis_francesca_romana_giordano.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Tuttomoto/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Tuttomoto/tuttomoto_tt_96.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Tuttomoto/tuttomoto_tt_97.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Tuttomoto text/" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Tuttomoto text/tuttomoto_september_1996.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/Tuttomoto text/tuttomoto_steve_hislop.txt" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/BIMBO1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/BIMBO2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/BIMBO3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/DAILYMAIL1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/DAILYMAIL2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/ECCO.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/irish1300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/irish300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/mail300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/MESSAGGERO1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/MESSAGGERO2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/PINGPONG.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/star1300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/star300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/stelegr1300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/stelegr300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/tabletennis.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/telegr300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/times1300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Articles/times300.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/aprilia.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/bikes-cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/irish-bike.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/kawasaki-tt-1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/kawasaki-tt-2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/suzuki.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/trophy-with-cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/with-aprilia-and-motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/yamaha1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/yamaha2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/yamaha-350-tzr.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/yamaha3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/yamaha4.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/processed/yamaha-tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/Yamaha 750 YZF/" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/Yamaha 750 YZF/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha resized 600w/" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha resized 600w/kawasaki2-tt_resized.gif" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha resized 600w/yamaha2_resized.gif" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha resized 600w/yamaha4_resized.gif" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/aprilia.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/bikes_cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/irish_bike_1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/kawasaki1 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/kawasaki2 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/suzuki.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/trophy_with_cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/with_aprilia_and_motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha_350_tzr.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha3.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha4.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Bikes/yamaha_TT.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Notes/" uploadstatus="1" />
+    <item url="working/photos-processed/Notes/website notes.doc" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/processed/paddock02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/processed/paddock-ferring.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/processed/paddock-number.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/processed/paddock-scrutiny.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/processed/paddock-tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/paddock02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/paddock_ferring.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/paddock_number.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/paddock_scrutiny.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/paddock/paddock_tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/domiziana-1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/domiziana-2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/domiziana-3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/domiziana-4.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/domiziana-5.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/Domiziana/domiziana-6.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-armando-errico.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-domiziana.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-enzo-guglielmetti-and-franco-lenci.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-jeoff-duke.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-loris-capirossi-and-fausto-gresini.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-nick-jefferies.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-steve-hislop-at-creg-ny-baa.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/processed/with-steve-hislop.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_armando_errico.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_domiziana.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_enzo_guglielmetti_and_franco_lenci.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_jeoff_duke.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_loris_capirossi_and_fausto_gresini.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_nick_jefferies.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_steve_hislop_at_creg_ny_baa.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/people/People/with_steve_hislop.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/cagiva-2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/cagiva-still-3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/cagiva-still-7.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/ducati-still-4.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/glamour-1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/gym.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/photo-roberto-rocca-1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/photo-roberto-rocca-2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/star.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/processed/yamahas-yzf-750-and-125.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/cagiva_2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/cagiva_still_3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/cagiva_still_7.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/ducati_still_4.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/glamour_1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/gym.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/photo_roberto_rocca_1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/photo_roberto_rocca_2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/star.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_glamour/yamahas_yzf_750_and_125.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/cagiva-still-8.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/mechanics.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/nicola1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/rider11.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/rider12.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/rider1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/totip.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/with-aprilia-and-motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/with-aprilia.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/with-aprilia-tt-92.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/with cagiva2.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/with cagiva.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/with-triumph-srx-mono.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/processed/yamaha3.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/cagiva_still_8.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/ducati70.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/mechanics.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/nicola1.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/rider11.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/rider12.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/rider1.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/totip.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/with_aprilia_and_motorcaravan.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/with_aprilia.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/with_aprilia_tt_92.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/with cagiva2.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/with cagiva.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/with_triumph_srx_mono.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Rider/rider_no_frills/yamaha3.JPG" uploadstatus="1" />
+    <item url="working/photos-processed/sort/" uploadstatus="1" />
+    <item url="working/photos-processed/Team/" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/practicing01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/practicing02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-all.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-03.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-04.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-05.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-06.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-07.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-life-08.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/processed/team-practicing.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/practicing01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/practicing02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_all.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_03.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_04.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_05.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_06.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_07.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_life_08.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Aprilia/team_practicing.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva03.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva04.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva05.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva06.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva07.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva08.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva112.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva113.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva114.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva115.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva116.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/cagiva117.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/dad-and-team.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock001.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock002.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock003.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock005.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock006.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock007.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock008.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock110.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock18.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/processed/paddock19.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva01.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva02.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva03.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva04.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva05.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva06.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva07.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva08.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva112.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva113.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva114.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva115.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva116.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/cagiva117.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/dad_and_team.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock001.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock002.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock003.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock005.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock006.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock007.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock008.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock110.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock18.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/Team/Team Cagiva/paddock19.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Skerries/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Skerries/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Skerries/processed/skerries-bike.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Skerries/processed/skerries-start.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Skerries/skerries bike.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Skerries/skerries start.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/processed/corkills.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/processed/kawasaki1-tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/processed/kawasaki2-tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/processed/paddock-tt-92.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/processed/yamaha-tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/corkills.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/kawasaki1 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/kawasaki2 tt.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/paddock_tt_92.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/TT/yamaha_TT.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Ulster Grand Prix/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Ulster Grand Prix/processed/" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Ulster Grand Prix/processed/with-nick-jefferies-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item url="working/photos-processed/TT &amp; Ireland/Ulster Grand Prix/with_nick_jefferies_at_the_ulster_grand_prix.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/bikers-life_associazione-difesa-moto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/in-moto_ancora-un-iniziativa.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/irish-bike_mccaughey-joins-elite-organisation.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motociclismo_la-notte-della-moto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_difendiamoci.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_educazione-innanzitutto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_la-moto-si-ribella-in-parlamento.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_l-associazione-difesa-moto-sbarca-in-inghilterra.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_l-unione-fa-la-forza.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_telemoto.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_un-associazione-da-salvaguardare.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/testo-interrogazione-parlamentare.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/the-tyrone-times_another-honour-for-baylon.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/thumb_size.txt" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/tuttomoto_in-difesa-della-moto-in-tutti-i-suoi-aspetti.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/caravan-e-camper_amore-a-prima-pista.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/corriere-dello-sport_la_bellissima.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/ecco_la-piu-matta-di-noi-due.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/il-messaggero_donne-con-le-gomme.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/il-personaggio_francesca-romana-giordano.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/la-gazzetta-dello-sport_donne_contro_in_pista_e_fuori.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/la-gazzetta-dello-sport_supersfida-di-francesca-giordano.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/motosprint_la-bella-e-la-bestia.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/riccioli_al_vento.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/stop-magazine_provo-il-brivido-della-passione-solo-quando-corro-come-il-vento.jpg" uploadstatus="1" />
+    <item url="images/articles/italian/thumbs/150x150/thumb_size.txt" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/article-in-japanese.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/manx-independent_francesca-woman-in-love-with-the-tt-aura.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/thumb_size.txt" uploadstatus="1" />
+    <item url="images/bikes/aprilia/" uploadstatus="1" />
+    <item url="images/bikes/aprilia/practicing01.jpg" uploadstatus="1" />
+    <item url="images/bikes/aprilia/practicing02.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva01.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva02.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva03.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva04.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva05.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva06.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva07.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva08.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/dad_and_team.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva.jpg" uploadstatus="1" />
+    <item url="images/bikes/skerries-bike.jpg" uploadstatus="1" />
+    <item url="images/bikes/skerries-start.jpg" uploadstatus="1" />
+    <item url="images/menu/" uploadstatus="1" />
+    <item url="images/menu/adm.jpg" uploadstatus="1" />
+    <item url="images/menu/bike19.jpg" uploadstatus="1" />
+    <item url="images/menu/bike71.jpg" uploadstatus="1" />
+    <item url="images/menu/bike.jpg" uploadstatus="1" />
+    <item url="images/menu/francesca.jpg" uploadstatus="1" />
+    <item url="images/menu/headlines.jpg" uploadstatus="1" />
+    <item url="images/menu/paddocks.jpg" uploadstatus="1" />
+    <item url="images/menu/people.jpg" uploadstatus="1" />
+    <item url="images/paddocks/" uploadstatus="1" />
+    <item url="images/paddocks/paddock02.jpg" uploadstatus="1" />
+    <item url="images/paddocks/paddock-ferring.jpg" uploadstatus="1" />
+    <item url="images/paddocks/paddock-number.jpg" uploadstatus="1" />
+    <item url="images/paddocks/paddock-scrutiny.jpg" uploadstatus="1" />
+    <item url="images/paddocks/paddock-tt.jpg" uploadstatus="1" />
+    <item url="images/template/" uploadstatus="1" />
+    <item url="images/template/header-bike.jpg" uploadstatus="1" />
+    <item url="images/template/header-francesca.jpg" uploadstatus="1" />
+    <item url="images/template/menu-arrow.gif" uploadstatus="1" />
+    <item url="images/template/menu-arrow-old.gif" uploadstatus="1" />
+    <item url="images/template/menu-arrow.png" uploadstatus="1" />
+    <item url="images/template/page-header.jpg" uploadstatus="1" />
+    <item url="images/template/red-white-horiz.png" uploadstatus="1" />
+    <item url="images/template/red-white-round.gif" uploadstatus="1" />
+    <item url="images/template/red-white-round.png" uploadstatus="1" />
+    <item url="images/template/red-white-vert.png" uploadstatus="1" />
+    <item modified_time="1119373485" url="bikes-aprilia.htm" uploadstatus="1" />
+    <item url="bikes-cagiva.htm" uploadstatus="1" />
+    <item modified_time="1119853956" url="bikes-yamaha.htm" uploadstatus="1" />
+    <item modified_time="1119821430" url="adm-la-notte-della-moto.htm" uploadstatus="1" />
+    <item modified_time="1119404655" url="adm-milan-bike-exibition.htm" uploadstatus="1" />
+    <item modified_time="1119821688" url="adm-other-events.htm" uploadstatus="1" />
+    <item modified_time="1119394907" url="paddocks.htm" uploadstatus="1" />
+    <item modified_time="1119546906" url="people-domiziana.htm" uploadstatus="1" />
+    <item modified_time="1119835764" url="ireland-skerries.htm" uploadstatus="1" />
+    <item modified_time="1119835674" url="ireland-tt.htm" uploadstatus="1" />
+    <item modified_time="1122235881" url="ireland-ulster-grand-prix.htm" uploadstatus="1" />
+    <item url="data/revved-up.htm" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/giacomo-agostini-and-daniele-agrati.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/giancarlo-falappa-and-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/with-emanuela-folliero-and-giuseppe-ballabene.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/with-giacomo-agostini-2.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/with-giacomo-agostini-and-giuseppe.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/with-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/with-marco-papa-and-giancarlo-falappa.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/thumbs/350x350/with-scalpi.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/giacomo-agostini-and-daniele-agrati.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/invite01-700.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/invite01-800.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/with-giacomo-agostini-2.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/with-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="images/adm/la-notte-della-moto/with-marco-papa-and-giancarlo-falappa.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm01.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm02.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm03.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm04.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm05.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm-fabrizio-pirovano-1.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm-fabrizio-pirovano-2.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/adm-with-michele-malatesta.jpg" uploadstatus="1" />
+    <item url="images/adm/milan-bike-exibition/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/nick-jefferies-joins-adm-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/petersborough-bmf-rally-1.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/petersborough-bmf-rally-2.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/regional-event-italy.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/the-adm-joins-ema_francesca-with-don-lewis-president-of-ema-in-norway.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/adm/other-events/nick-jefferies-joins-adm-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/petersborough-bmf-rally-1.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/petersborough-bmf-rally-2.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/the-adm-joins-ema_francesca-with-don-lewis-president-of-ema-in-norway.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/with-don-lewis-president-ema-in-norway.jpg" uploadstatus="1" />
+    <item url="images/adm/other-events/with-nick-jefferies-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/motosprint_la-moto-si-ribella-in-parlamento-small.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/thumbs/150x150/tuttomoto_in-difesa-dei-motociclisti.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/motosprint_la-moto-si-ribella-in-parlamento-small.jpg" uploadstatus="1" />
+    <item url="images/articles/adm/tuttomoto_in-difesa-dei-motociclisti.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/giordano-sisters.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/irish-bike_tenth-place.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/manx-independent_italians-aim-to-be-firsta-pasta-the-post-at-tt.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/manx_wired-for-sound.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/road-racing-ireland_the-skerries-experence.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/150x150/the-northern-standard_bishopscourt-short-circuit-meeting.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/article-in-japanese.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/bike-magazine_no-bimbo.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/daily-mail_fast-lady-on-the-isle-of-man.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/daily-star_real-shortage-of-man-material.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/daily-telegraph_lethers-lipstick-and-two-wheel-passion.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/giordano-sisters.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/irish-bike_tenth-place.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/irish-racer_feminine-touch-for-road-racing.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/mail-on-sunday_the-fast-lady-who-knows-no-fear.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/manx-independent_francesca-woman-in-love-with-the-tt-aura.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/manx-independent_italians-aim-to-be-firsta-pasta-the-post-at-tt.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/manx_wired-for-sound.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/road-racing-ireland_the-skerries-experence.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/sunday-telegraph_thrill-of-the-tt-chase.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/sunday-times_revved-up-and-ready-to-ride.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/the-northern-standard_bishopscourt-short-circuit-meeting.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/thumbs/450x450/thumb_size.txt" uploadstatus="1" />
+    <item url="images/articles/racing/giordano-sisters.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/irish-bike_tenth-place.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/manx-independent_italians-aim-to-be-firsta-pasta-the-post-at-tt.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/manx_wired-for-sound.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/road-racing-ireland_the-skerries-experence.jpg" uploadstatus="1" />
+    <item url="images/articles/racing/the-northern-standard_bishopscourt-short-circuit-meeting.jpg" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/thumbs/" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/thumbs/150x150/" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/thumbs/150x150/thumb_size.txt" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/thumbs/150x150/tuttomoto_tt_96.jpg" uploadstatus="1" />
+    <item url="images/articles/tuttomoto/thumbs/150x150/tuttomoto_tt_97.jpg" uploadstatus="1" />
+    <item url="images/bikes/aprilia/team_practicing.jpg" uploadstatus="1" />
+    <item url="images/bikes/aprilia/team-practicing.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva112.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva113.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva114.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva115.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva116.jpg" uploadstatus="1" />
+    <item url="images/bikes/cagiva/cagiva117.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/aprilia.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/cagiva-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/cagiva.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/ducati70.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/kawasaki-400-skerries-irish-bike2.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/kawasaki-400-skerries-irish-bike.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/kawasaki-tt-1.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/kawasaki-tt-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/skerries-bike.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/skerries-start.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/suzuki.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/with-aprilia-tt-92.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha1.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha2.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha3.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha-400-tt-96-1.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha-400-tt-96-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha-400-tt-96-3.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha4.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha5.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha-600-tt-96-1.jpg" uploadstatus="1" />
+    <item url="images/bikes/thumbs/350x350/yamaha-600-tt-96-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/aprilia.jpg" uploadstatus="1" />
+    <item url="images/bikes/bikes-cagiva.jpg" uploadstatus="1" />
+    <item url="images/bikes/ducati70.jpg" uploadstatus="1" />
+    <item url="images/bikes/kawasaki-400-skerries-irish-bike2.jpg" uploadstatus="1" />
+    <item url="images/bikes/kawasaki-400-skerries-irish-bike.jpg" uploadstatus="1" />
+    <item url="images/bikes/trophy-with-cagiva.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha1.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha2.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha3.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha-400-tt-96-1.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha-400-tt-96-2.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha-400-tt-96-3.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha4.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha5.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha-600-tt-96-1.jpg" uploadstatus="1" />
+    <item url="images/bikes/yamaha-600-tt-96-2.jpg" uploadstatus="1" />
+    <item url="images/menu/bike19-thin.jpg" uploadstatus="1" />
+    <item url="images/menu/paddock.jpg" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/paddock02.jpg" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/paddock-ferring.jpg" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/paddock-number.jpg" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/paddock-scrutiny.jpg" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/paddock-tt.jpg" uploadstatus="1" />
+    <item url="images/paddocks/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/domiziana-1.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/domiziana-2.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/domiziana-3.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/domiziana-4.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/domiziana-5.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/domiziana-6.jpg" uploadstatus="1" />
+    <item url="images/people/domiziana/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/people/people/" uploadstatus="1" />
+    <item url="images/people/people/thumbs/" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-armando-errico.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-domiziana.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-emanuela-folliero-and-giuseppe-ballabene.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-enzo-guglielmetti-and-franco-lenci.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-jeoff-duke.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-loris-capirossi-and-fausto-gresini.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-marco-papa-and-giancarlo-fala.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-nick-jefferies.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-steve-hislop-at-creg-ny-baa.jpg" uploadstatus="1" />
+    <item url="images/people/people/thumbs/350x350/with-steve-hislop.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-armando-errico.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-domiziana.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-emanuela-folliero-and-giuseppe-ballabene.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-enzo-guglielmetti-and-franco-lenci.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-giacomo-agostini.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-jeoff-duke.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-loris-capirossi-and-fausto-gresini.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-marco-papa-and-giancarlo-fala.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-nick-jefferies.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-steve-hislop-at-creg-ny-baa.jpg" uploadstatus="1" />
+    <item url="images/people/people/with-steve-hislop.jpg" uploadstatus="1" />
+    <item url="images/rider/thumbs/" uploadstatus="1" />
+    <item url="images/rider/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/rider/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/practicing01.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/practicing02.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-01.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-02.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-03.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-04.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-05.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-06.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-07.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-life-08.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/team-practicing.jpg" uploadstatus="1" />
+    <item url="images/team/team-aprilia/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva01.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva02.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva03.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva04.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva05.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva06.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva07.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva08.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva112.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva113.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva114.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva115.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva116.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/cagiva117.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/dad-and-team.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock001.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock002.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock003.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock005.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock006.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock007.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock008.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock110.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock18.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/paddock19.jpg" uploadstatus="1" />
+    <item url="images/team/team-cagiva/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/template/header-bike-200.jpg" uploadstatus="1" />
+    <item url="images/template/header-francesca-200.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/thumbs/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/thumbs/350x350/skerries-bike.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/thumbs/350x350/skerries-start.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/skerries/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/corkills.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/kawasaki-tt-1.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/kawasaki-tt-2.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/paddock-tt-92.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/with-aprilia-tt-92.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/yamaha-400-tt-96-1.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/yamaha-400-tt-96-2.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/yamaha-400-tt-96-3.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/yamaha-600-tt-96-1.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/tt/thumbs/350x350/yamaha-600-tt-96-2.jpg" uploadstatus="1" />
+    <item url="images/tt-and-ireland/ulster-grand-prix/thumbs/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/ulster-grand-prix/thumbs/350x350/" uploadstatus="1" />
+    <item url="images/tt-and-ireland/ulster-grand-prix/thumbs/350x350/thumb_size.txt" uploadstatus="1" />
+    <item url="images/tt-and-ireland/ulster-grand-prix/thumbs/350x350/with-nick-jefferies-at-the-ulster-grand-prix.jpg" uploadstatus="1" />
+    <item url="working/adm/La Notte della Moto/with_giacomo_agostini_2.jpg" uploadstatus="1" />
+    <item modified_time="1122145618" url="photo-article.php" uploadstatus="1" />
+    <item url="include/broswer-detect.php" uploadstatus="1" />
+    <item modified_time="1122233310" url="rider-glamorous.htm" uploadstatus="1" />
+    <item modified_time="1120049314" url="rider-at-work.htm" uploadstatus="1" />
+    <item modified_time="1122178032" url="ireland-britten.htm" uploadstatus="1" />
+    <author>James McGuigan</author>
+    <email>james@worldfuturecouncil.org</email>
+    <debuggerclient>Gubed</debuggerclient>
+    <exclude cvsignore="false" >*~;*.webprj;</exclude>
+    <teamdata>
+      <taskleaders/>
+      <subprojectleaders/>
+      <mailinglist address="" />
+    </teamdata>
+    <events/>
+    <item modified_time="1122236049" url="yamaha-current-condition.htm" uploadstatus="1" />
+    <item modified_time="1122239614" url="yamaha-team.htm" />
+    <item url="yamaha-in-action.htm" />
+    <treestatus>
+      <openfolder url="data" />
+      <openfolder url="include" />
+      <openfolder url="templates" />
+    </treestatus>
+  </project>
+</webproject>

@@ -1,0 +1,27 @@
+<?php
+
+$title    = 'Ulster Grand Prix';
+
+$photos = array(
+  'with-nick-jefferies-at-the-ulster-grand-prix|Nick Jefferies and Francesca',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:175px; margin-top:   0px; z-index:9; }
+HTML;
+
+include_once('include/html-functions.php');
+$email = email_encode('francesca@ukonline.co.uk');
+$content .= <<<HTML
+<p class='photobike'>In 1996 I raced in the the Ulster Grand Prix with the Yamaha YZF 750. I didn't finish the first race due to a clutch problem, but was able to return and finish in the second race of the day.</p>
+
+<p class='photobike'> I cannot find any photos of the event, except this one with Nick. If anybody has any, then please <a href='mailto:$email'>let me know</a>.</p>
+HTML;
+
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/tt-and-ireland/ulster-grand-prix');
+
+include_once('templates/francescagiordano.php');
+
+?>

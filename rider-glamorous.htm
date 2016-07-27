@@ -1,0 +1,40 @@
+<?php
+
+$title    = 'Glamorous';
+
+$photos = array(
+  'photo-roberto-rocca-1',
+  'photo-roberto-rocca-2',
+  'star',
+  'gym',
+  'glamour-1',
+  'yamahas-yzf-750-and-125',
+  'cagiva-2',
+  'ducati-still-4',
+  'cagiva-still-3',
+  'cagiva-still-7',
+  'flavio1',
+  'flavio2',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left: 50px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:450px; margin-top:-352px; z-index:9; }
+.photobike2  { margin-left:175px; margin-top: -30px; z-index:8; }
+.photobike3  { margin-left:  0px; margin-top: -50px; z-index:7; }
+.photobike4  { margin-left:225px; margin-top: -75px; z-index:6; }
+.photobike5  { margin-left: 10px; margin-top:-100px; z-index:5; }
+.photobike6  { margin-left:325px; margin-top:-175px; z-index:5; }
+.photobike7  { margin-left: 85px; margin-top: -45px; z-index:9; }
+.photobike8  { margin-left:350px; margin-top:-250px; z-index:8; }
+.photobike9  { margin-left: 25px; margin-top: -75px; z-index:7; }
+.photobike10 { margin-left:400px; margin-top:-125px; z-index:9; }
+.photobike11 { margin-left:200px; margin-top: -75px; z-index:8; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/rider/glamorous');
+
+include_once('templates/francescagiordano.php');
+
+?>

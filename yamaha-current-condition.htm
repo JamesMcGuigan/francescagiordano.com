@@ -1,0 +1,72 @@
+<?php
+
+$title    = 'Yamaha YZF 750 - Current Condition';
+
+$photos = array(
+  'yamaha28',
+  'yamaha29',
+  'yamaha30',
+  'yamaha31',
+  'yamaha32',
+  'yamaha33',
+  'yamaha34',
+  'yamaha36',
+  'yamaha37',
+  'yamaha62',
+  'yamaha63',
+  'yamaha35',
+  'yamaha43',
+  'yamaha38',
+  'yamaha39',
+  'yamaha40',
+
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left: 50px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:350px; margin-top: -50px; z-index:8; }
+.photobike2  { margin-left:-10px; margin-top:-150px; z-index:8; }
+.photobike3  { margin-left:380px; margin-top: -75px; z-index:8; }
+.photobike4  { margin-left:130px; margin-top:-235px; z-index:8; }
+.photobike5  { margin-left:425px; margin-top: -75px; z-index:8; }
+.photobike6  { margin-left: 50px; margin-top:-250px; z-index:8; }
+.photobike7  { margin-left:  0px; margin-top: -15px; z-index:8; }
+.photobike8  { margin-left:325px; margin-top:-300px; z-index:8; }
+.photobike9  { margin-left:  0px; margin-top:  30px; z-index:8; }
+.photobike10 { margin-left:325px; margin-top:-300px; z-index:9; }
+.photobike11 { margin-left: 10px; margin-top:  25px; z-index:9; }
+.photobike12 { margin-left:350px; margin-top:-175px; z-index:9; }
+.photobike13 { margin-left:300px; margin-top:  25px; z-index:9; }
+.photobike14 { margin-left:150px; margin-top: -25px; z-index:9; }
+.photobike15 { margin-left:  0px; margin-top: -25px; z-index:9; }
+HTML;
+
+include_once('include/html-functions.php');
+$email = email_encode('francesca@ukonline.co.uk');
+$content .= <<<HTML
+<p>With this Yamaha YZF 750, I won a race during the 1995 Italian National Championship 750cc in Pergusa, Sicily. With this and other good results, the bike enabled me to qualify and race in the finals of the Italian National Championship 750cc. This makes two firsts, the first Italian woman to win a race and the first woman to qualify for the finals in the Italian Sport Production in the 750cc class and, I believe, also in any class above 125cc.</p>
+
+<p>I raced with this Yamaha YZF 750 in the 1995 Trofeo d'Estate, Varano, Italy. I also raced with the bike in the 1996 Ulster Grand Prix. The same month I also raced the Yamaha in the Superbike in Zolder, Belgium.</p>
+
+<p>As part of the <a href='articles.htm'>wide media coverage</a> I received during my racing career, this Yamaha YZF 750 has been featured in <a href='articles.htm?yamaha'>several papers</a>.</p>
+
+<p>The bike was Massimo Meregalli's official Yamaha Belgarada factory production bike which he raced in the 1992 World Superbike Championship. It was raced by Armando Edrrico in the 1993 Italian Sport Production. I bought the bike directly from the Belgarda factory in 1994 and had it regularly serviced free-of-charge by the Belgarda mechanics at the factory near Monza, and on the circuit whenever the Yamaha team was present, always using the best quality spare parts which where also provided for free.</p>
+
+<p>The bike is in very good condition. Before putting the bike into storage, the carburettor was cleaned and the petrol tank was emptied to prevent rust. It has been kept covered indoors in a dry place ever since. The photos below where taken very recently (July 2005) and attest to its excellent condition. The bike is currently located in North London.</p>
+
+<p>I am offering the Yamaha YZF 750 for sale. If you wish to make an offer, then send an email to <a href='mailto:$email'>$email</a>. The bike is currently located in North London.</p>
+HTML;
+
+
+/*
+<p>I am offering the Yamaha YZF 750 for <a href='http://cgi.ebay.co.uk/ws/eBayISAPI.dll?ViewItem&item=4578293236'>sale on ebay</a>. If you wish to make an offer, then either make a bid or send me a private email at <a href='mailto:$email'>$email</a>.</p>
+HTML;
+*/
+// <a href='http://cgi.ebay.co.uk/ws/eBayISAPI.dll?ViewItem&category=9809&item=4565037290&rd=1'>sale on ebay</a>
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/yamaha/current-condition');
+
+include_once('templates/francescagiordano.php');
+
+?>

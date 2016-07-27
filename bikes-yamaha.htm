@@ -1,0 +1,27 @@
+<?php
+
+$title    = 'Yamaha 750 YZF';
+
+$photos = array(
+'yamaha1',
+'yamaha4',
+'yamaha2',
+'yamaha5',
+'yamaha3',
+
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left: 25px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:200px; margin-top: -25px; z-index:8; }
+.photobike2  { margin-left:375px; margin-top: -25px; z-index:7; }
+.photobike3  { margin-left:  0px; margin-top:-175px; z-index:9; }
+.photobike4  { margin-left:300px; margin-top: -25px; z-index:8; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/bikes');
+
+include_once('templates/francescagiordano.php');
+
+?>

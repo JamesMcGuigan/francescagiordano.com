@@ -1,0 +1,50 @@
+<?php
+
+$title    = 'Domiziana Giordano';
+
+$photos = array(
+  'domiziana-1',
+  'domiziana-2',
+  'domiziana-3',
+  'domiziana-4',
+  'domiziana-5',
+  'domiziana-6',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:250px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left: 75px; margin-top:-125px; z-index:7; }
+.photobike2  { margin-left:350px; margin-top:-200px; z-index:5; }
+.photobike3  { margin-left:  0px; margin-top:-160px; z-index:9; }
+.photobike4  { margin-left:275px; margin-top:-200px; z-index:4; }
+.photobike5  { margin-left:100px; margin-top: -75px; z-index:5; }
+HTML;
+
+
+$content .= <<<HTML
+<p>My sister Domiziana has starred in the following films:</p>
+
+<ul style='list-style:none;'>
+<li>2003 - <a href='http://www.imdb.com/title/tt0318003/'>Il Quaderno Della Spesa</a> (Household Accounts) <em>as Armida</em></li>
+<li>2000 - <a href='http://www.imdb.com/title/tt0208032/'>Canone Inverso - Making Love</a> <em>as Baroness Blau</em></li>
+<li>1997 - <a href='http://www.imdb.com/title/tt0119120/'>Finalmente Soli</a> <em>as Irene</em></li>
+<li>1995 - <a href='http://www.imdb.com/title/tt0298044/'>Machinations</a> <em>as Elisabeth Stadler</em></li>
+<li>1994 - <a href='http://www.imdb.com/title/tt0110472/'>Mario und der Zauberer</a> (Mario and the Magician) <em>as Principessa</em></li>
+<li>1994 - <a href='http://www.imdb.com/title/tt0110148/'>Interview with the Vampire: The Vampire Chronicles</a> <em>as Madeleine</em></li>
+<li>1993 - <a href='http://www.imdb.com/title/tt0132147/'>La Famiglia Ricordi</a> (TV Series)</li>
+<li>1990 - <a href='http://www.imdb.com/title/tt0100274/'>Nouvelle Vague</a> (New Wave) <em>as Elena Torlato-Favrini</em></li>
+<li>1987 - <a href='http://www.imdb.com/title/tt0094049/'>Strana la Vita</a> <em>as Silvia</em></li>
+<li>1985 - <a href='http://www.imdb.com/title/tt0090372/'>Zina</a> <em>as Zina Bronstein</em></li>
+<li>1984 - <a href='http://www.imdb.com/title/tt0086932/'>Bakom Jalusin</a> <em>as Helene Azar</em></li>
+<li>1983 - <a href='http://www.imdb.com/title/tt0086022/'>Nostalghia</a> <em>as Eugenia</em></li>
+<li>1982 - <a href='http://www.imdb.com/title/tt0083549/'>Amici miei atto II</a> (All My Friends Act II) <em>as Noemi</em></li>
+</ul>
+HTML;
+
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/people/domiziana');
+
+include_once('templates/francescagiordano.php');
+
+?>

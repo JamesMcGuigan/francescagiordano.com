@@ -1,0 +1,27 @@
+<?php
+
+$title    = 'Other Events';
+
+$photos = array(
+  'petersborough-bmf-rally-1|Petersborough BMF Rally',
+  'petersborough-bmf-rally-2|Petersborough BMF Rally',
+  'regional-event-italy|Regional Event in Italy',
+  'the-adm-joins-ema_francesca-with-don-lewis-president-of-ema-in-norway|The ADM joins EMA <br/> Francesca with Don Lewis,<br/> President of EMA, in Norway',
+  'nick-jefferies-joins-adm-at-the-ulster-grand-prix|Nick Jefferies joins ADM <br/> at the Ulster Grand Prix',
+
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:-25px; margin-top:   0px; z-index:5; }
+.photobike1  { margin-left:350px; margin-top:-200px; z-index:5; }
+.photobike2  { margin-left:125px; margin-top:  25px; z-index:5; }
+.photobike3  { margin-left:350px; margin-top:  25px; z-index:5; }
+.photobike4  { margin-left:-25px; margin-top:-225px; z-index:5; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/adm/other-events');
+
+include_once('templates/francescagiordano.php');
+
+?>

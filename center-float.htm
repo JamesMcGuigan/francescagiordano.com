@@ -1,0 +1,33 @@
+<style>
+div.setwidth {
+border: 1px solid red;
+/*width: 150px;*/
+text-align: center; /* ie hack */
+}
+
+div.wrap {
+display: table;
+margin: 0 auto;
+text-align: center;
+}
+
+div.float {
+border: 1px solid green;
+display: table-cell;
+float: left;
+}
+
+* html div.float { /* ie hack */
+display: inline;
+float: none;
+}
+</style>
+
+<div class="setwidthh">
+<div class="wrap">
+<div class="float">lorem</div>
+<div class="float">variable width content ipsum</div>
+<div class="float">lorem</div>
+<div class="float">lorem</div>
+</div>
+</div>

@@ -1,0 +1,64 @@
+<?php
+
+$title    = 'The Britten 1000cc - TT 93';
+$photos = array(
+  'britten01|Happily posing on the Britten 1000cc vee-twin',
+  'britten02|Shaun Harris and John Britten',
+  'britten03|Shaun Harris at the starting line',
+  'britten04|Shaun Harris at the starting line',
+  'britten13|Shaun Harris at the starting line',
+  'britten05|Shaun Harris at the pit stop with <br>John Britten and a mechanic',
+  'britten06|Shaun Harris at the pit <br>stop with John Britten <br/>and a mechanic',
+  'britten07|Shaun Harris at the pit <br>stop with John Britten <br/>and a mechanic',
+  'britten08|The Britten 1000cc vee-twin',
+  'britten09|Co-team manager <br/>Sandro Favarelli and a friend',
+);
+
+$photos_by_waterson = array(
+  'britten10',
+  'britten11',
+  'britten12',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:350px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:-10px; margin-top:-175px; z-index:8; }
+.photobike2  { margin-left:350px; margin-top: -50px; z-index:7; }
+.photobike3  { margin-left:-10px; margin-top: -50px; z-index:7; }
+.photobike4  { margin-left:425px; margin-top:-125px; z-index:9; }
+.photobike5  { margin-left: 50px; margin-top:-200px; z-index:8; }
+.photobike6  { margin-left:175px; margin-top:  25px; z-index:8; }
+.photobike7  { margin-left:425px; margin-top:-350px; z-index:9; }
+.photobike8  { margin-left:  0px; margin-top:   0px; z-index:9; }
+.photobike9  { margin-left:400px; margin-top:-175px; z-index:8; }
+
+.watterson0 { margin-left:115px; margin-top:  50px; z-index:9; }
+.watterson1 { margin-left:365px; margin-top:-350px; z-index:9; }
+.watterson2 { margin-left:185px; margin-top:  15px; z-index:9; }
+HTML;
+
+$content .= "<p class='photobike'>I took these photos during the TT 93. While I was there I spent a lot of time with <strong>John Britten's</strong> wonderful team. I didn't ride the Britten 1000cc but I thought the bike was absolutely great.
+<a href='#watterson'>John Watterson's photos are below</a> and there is also a <a href='#article'>good article</a> by the Manx Independent at the bottom of the page.</p>";
+
+include_once('include/photobike.php');
+$content0 .= photobike($photos,             'images/tt-and-ireland/britten',350,'photobike');
+$content  .= preg_replace("|(<div class='clear'>&nbsp;</div>).*$|s",'$1',$content0);
+
+$content  .= "<div class='photobike-comment'><hr/><a name='watterson'></a><h3 style='margin-top:3em;'>Photos by John Watterson</h3></div>";
+
+$content1 .= photobike($photos_by_waterson, 'images/tt-and-ireland/britten',350,'watterson');
+$content1  = str_replace("<p class='back'><a href='#top'>Back to Top</a></p>",'',$content1);
+$content  .= preg_replace("|^.*?(<div class='watterson0'>)|s","$1",$content1);
+
+
+$content  .= "<a name='article'></a>";
+$_SERVER['QUERY_STRING'] = 'Britten';
+$dont_print_template = true;
+include_once('articles.htm');
+$dont_print_template = false;
+
+$content .= "<div class='clear'>&nbsp;</div><p class='back'><a href='#top'>Back to Top</a></p>";
+
+include('templates/francescagiordano.php');
+
+?>

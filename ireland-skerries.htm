@@ -1,0 +1,24 @@
+<?php
+
+$title    = 'Skerries';
+
+$photos = array(
+  'skerries-bike',
+  'skerries-start',
+  'kawasaki-400-skerries-irish-bike',
+  'kawasaki-400-skerries-irish-bike2',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left: 90px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:340px; margin-top:-295px; z-index:9; }
+.photobike2  { margin-left: 25px; margin-top:  25px; z-index:9; }
+.photobike3  { margin-left:325px; margin-top: -50px; z-index:8; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/tt-and-ireland/skerries');
+
+include_once('templates/francescagiordano.php');
+
+?>

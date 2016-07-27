@@ -1,0 +1,242 @@
+<?php
+//include_once('../Gubed/Gubed.php');
+include_once('data/articles.php');
+include_once('include/photobike.php');
+include_once('include/debug.php');
+$articlephp      = 'articles.htm';
+$photoarticlephp = 'photo-article.php?img=';
+$smallthumbsize  = 150;
+$bigthumbsize    = 450;
+
+foreach($articles as $lang => $article_lang) {
+  $sort_field = array();
+  switch ($lang) {
+    case 'ADM': foreach($articles[$lang] as $article) { $sort_field[] = strtotime($article['date']); } break;
+    default:    break;
+  }
+  if($sort_field) array_multisort($sort_field, SORT_DESC, $articles[$lang]);
+}
+
+do {
+$request = ($_GET['article']) ? $_GET['article'] : $_SERVER['QUERY_STRING'];
+if($request && $article_text[$request]) {
+  // find entry in article array
+  $article = array();
+  foreach($articles as $lang => $article_lang) { foreach($articles[$lang] as $article) {
+      if($article['link'] === $request) {
+      $articledir  = $articles_photodir[$lang];
+        if($article['bigthumbsize']) {
+          $bigthumbsize = $article['bigthumbsize'];
+          generate_thumbnails(array("$article[link].jpg"),$articledir,$bigthumbsize,$bigthumbsize);
+        } else {
+          generate_thumbnails_directory($articledir,$bigthumbsize,$bigthumbsize);
+        }
+        $bigthumbdir = "$articledir/thumbs/{$bigthumbsize}x{$bigthumbsize}";
+        break 2;
+      }
+  }}  if($article['link'] !== $request) { $article_text[$request] = ''; break; }
+  extract($article);
+
+  $doctitle = implode(' - ',array($headline,$paper,$date));
+//  $title    = $headline;
+//  $subtitle = $paper . (($date) ? " - $date" : '');
+
+
+  list($img_width, $img_height, $img_type, $img_attr) = @getimagesize("$bigthumbdir/$request.jpg");
+
+  $zoomlevel = ($zoom)         ? "&zoom=$zoom"       : '';
+  $from      = ($_GET['from']) ? "&from=$_GET[from]" : '';
+  $content .= "<div class='bigthumb' style='width:$img_width'><a href='photo-article.php?img=$link$from$zoomlevel'>"
+            . "<img src='$bigthumbdir/$request.jpg' alt='$headline' width='$img_width' height='$img_height'/><span>Click to Enlarge</span></a></div>";
+  $content .= "<div class='articletext'>\n"
+            . "<h2>$headline</h2>\n"
+            . "<p class='paper'>\n"
+  .(($paper)? "<span class='paper'>$paper</span>\n" : '')
+  .(($paper && $date) ? " - " : '')
+  .(($date) ? "<span class='date' >$date</span>\n" : '')
+  .(($by)   ? "<br/><em>By $by</em></p>" : "</p>" )
+            . "$article_text[$request]\n"
+            . "</div>";
+
+  $source = 'articles.htm?' . (($_GET['from']) ? $_GET['from'] : $lang);
+  if(substr($_GET['from'],0,5) === 'html:') { $source = substr($_GET['from'],5,strlen($_GET['from'])-5); }
+  $content .= "<p class='back'><a href='$source#$request'>Back to Articles Page</a></p>";
+
+
+
+//   foreach($articles as $lang => $article_lang) {
+//     $sidemenu = "<h3>$lang Articles</h3><ul>";
+//     foreach($article_lang as $article) {
+//       $sidemenu .= "<li><a href='$articlephp?$article[link]'>$article[headline] <span class='paper'>($article[paper])</span></a></li>";
+//     }
+//     $sidemenu .= "</ul>";
+//   }
+
+  include_once('templates/francescagiordano.php');
+  exit();
+}
+} while (false);
+
+
+
+
+// display all articles if none specified
+
+function articles_col($articles,$from='') {
+  global $article_text, $articlephp, $photoarticlephp, $articledir,$smallthumbsize;
+  $col_1 = '';
+  $col_2 = '';
+  $article = current($articles);
+  $thumbdir    = "$articledir/thumbs/{$smallthumbsize}x{$smallthumbsize}";
+
+  while($article !== false) {
+    if(!$article['link']) { $article = next($articles); continue; }
+    extract($article);
+    $newscell  = '';
+    //$piclink   = "$articledir/$link.jpg";
+    $zoomlevel = ($zoom) ? "&zoom=$zoom" : '';
+    $fromurl   = ($from) ? "&from=$from" : '';
+    $piclink   = $photoarticlephp.$link.$zoomlevel;
+    $textlink  = ($article_text[$link]) ? (($from)?"$articlephp?article=$link$fromurl":"$articlephp?$link") : $piclink;
+    $altheadline = str_replace('\'','',$headline);
+    $intro_length = 350;
+    if($intro != '') {
+           $intro = "<p>$article[intro]</p>"; }
+    else { $intro = article_intro($article_text[$link],$intro_length); }
+
+    $newscell .= "\n<a name='$link'></a>\n"
+              .  "<div class='newscell'>\n"
+
+              .  "  <div class='photo'>\n"
+              .  "    <a href='$textlink'>\n"
+              .  "    <img class='thumbnail' src='$thumbdir/$link.jpg'\n"
+              .  "                 alt='$altheadline' $img_attr/></a>\n"
+              .  "    <div class='paper'>$paper</div>\n"
+              .  "    <div class='date' >$date</div>\n"
+              .  "  </div>\n\n"
+
+              .  "  <h4 class='headline'><a href='$textlink'>$headline</a></h4>\n"
+              .  "  <div class='intro'>$intro</div>\n"
+               .  "  <div class='links'> "
+                   . (($article_text[$link])
+                   ? "<a href='$textlink'>Read Article Transcript</a>"
+                   : "<a href='$piclink'>View Article Image</a>")
+               .  "  </div>\n"
+              .  "</div>\n"
+              .  "<div class='clear'></div>\n";
+
+    // hack to make last element on second column
+    if($link == 'article-in-japanese')  { $col += $col%2+1; }
+    if(++$col%2) { $col_1 .= $newscell; }
+           else  { $col_2 .= $newscell; }
+
+    if(($article = next($articles)) === false) { break; }
+  }
+
+  $content .= "\n<div class='newscol'>\n"
+            . "<div class='col1'>\n$col_1\n</div> <!-- end col1 -->\n"
+            . "<div class='col2'>\n$col_2\n</div> <!-- end col2 -->\n"
+            . "</div> <!-- end newscol -->\n";
+
+  return $content;
+}
+
+function articles_table($articles) {
+  global $articlephp, $articledir;
+  $article = current($articles);
+  $thumbdir    = "$articledir/thumbs/{$smallthumbsize}x{$smallthumbsize}";
+
+  $content .= "\n<table class='news'>";
+  while($row++ && $article !== false) {
+    $content .= "\n<tr>\n";
+    for($col=0;$col<2;$col++) {
+
+      extract($article);
+      $piclink  = "$articledir/$link.jpg";
+      $textlink = (($article_text[$link]) ? "$articlephp?$link" : $piclink);
+      $intro_length = 350;
+      if($article_text[$link] == '') {
+             $intro = "<p>$article[intro]</p>"; }
+      else { $intro = article_intro($article_text[$link],$intro_length); }
+
+      for($cell=0;$cell<2;$cell++) {
+        if(($cell+1)%2) { // +$row to alternate
+          $content .="\n<td colspan='2' width='45%' class='article'>
+          <h3  class='headline'><a href='$textlink'>$headline</a></h3>
+          <div class='intro'>$intro</div>"
+          . "<div class='links'>"
+          . (($article_text[$link])
+            ? "<a href='$textlink'>Read Article Transcript</a>"
+            : "<a href='$piclink'>View Article Image</a>")
+          . "</div>\n</td>\n";
+        } else {
+          $content .="\n<td width='10%' class='photo'>
+          <a href='$textlink'><img class='thumbnail' src='$thumbdir/$link.jpg' alt='$headline ($paper)'/></a>
+          <div class='paper'>$paper</div>
+          <div class='date'>$date</div>\n</td>\n";
+        }
+      }
+      if(($article = next($articles)) === false) { break; }
+    }
+    $content .= "\n</tr>\n";
+  }
+  $content .= "\n</table>\n";
+  return $content;
+}
+
+$request = preg_replace('/%20/i',  ' ',  $request);
+$request = preg_replace('/^adm$/i','ADM',$request);
+$request = preg_replace('/^(by *)?francesca$/i',               'By Francesca',   $request);
+$request = preg_replace('/^Yamaha( *750)?( *YZF)?( *750)?$/i', 'Yamaha YZF 750', $request);
+
+if($request === 'Yamaha YZF 750') {
+  $sort_field = array();
+  foreach($articles as $lang => $array) { if($lang!='Yamaha YZF 750') { foreach($array as $article) {
+    if($article['yamaha'] == true) { $articles_temp['Yamaha YZF 750'][] = $article; $sort_field[] = $article['yamaha']; }
+  }}}
+  if($sort_field) array_multisort($sort_field, SORT_ASC, $articles_temp['Yamaha YZF 750']);
+  $articles = $articles_temp;
+}
+elseif($request === 'Britten') {
+  $articles = array('Britten' => $articles['Britten']);
+}
+elseif($request && $articles[ucfirst($request)]) {
+  $articles_temp[ucfirst($request)] = $articles[ucfirst($request)];
+  foreach($articles as $key => $value) {
+    if(ucfirst($request) !== $key) { $articles_temp[$key] = $value; }
+  }
+  $articles = $articles_temp;
+}
+elseif($request && !$article_text[$request]) {
+  $displaytitle = ucwords(str_replace(array('-','_'),array(' ',' - '), $request));
+  $content .= "<h3>The article $displaytitle does not exist<br/>\n"
+            . "Try one of the below</h3><br/>";
+}
+
+
+if($request !== 'Britten') { unset($articles['Britten']); }
+
+$doctitle = 'Articles';
+$sidemenu = '';
+$inline_style .= 'body { background-color:white;}';
+
+$content .= "<div class='article-content'>\n";
+$content .= "<div class='spacer'></div>";
+foreach($articles as $lang => $article_lang) {
+  $articledir  = $articles_photodir[$lang];
+  generate_thumbnails_directory($articledir,$smallthumbsize,$smallthumbsize);
+  switch($lang) {
+    case 'By Francesca':   $article_title = "Articles $lang » ";               $from = '';       break;
+    case 'Yamaha YZF 750': $article_title = "Articles Featuring the $lang » "; $from='yamaha';   break;
+    case 'Britten':        $article_title = "Articles Featuring the Britten 1000cc vee-twin » ";
+                           $from='html:ireland-britten.htm'; break;
+    default:               $article_title = "$lang Articles » ";               $from='';         break;
+  }
+  $content .= "\n<div class='newscoltitle'>$article_title </div>\n";
+  $content .= articles_col($article_lang,$from);
+}
+$content .= "</div>";
+
+include_once('templates/francescagiordano.php');
+
+?>

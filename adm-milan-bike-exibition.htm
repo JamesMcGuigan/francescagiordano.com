@@ -1,0 +1,33 @@
+<?php
+
+$title    = 'Milan Bike Exibition';
+
+$photos = array(
+  'adm-with-michele-malatesta|Michele Malatesta and Francesca',
+  'adm-fabrizio-pirovano-1|Fabrizio Pirovano',
+  'adm-fabrizio-pirovano-2|Fabrizio Pirovano',
+  'adm01',
+  'adm02',
+  'adm03',
+  'adm04',
+  'adm05',
+
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:  0px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:400px; margin-top:-200px; z-index:9; }
+.photobike2  { margin-left: 55px; margin-top:-125px; z-index:9; }
+.photobike3  { margin-left:325px; margin-top:-175px; z-index:9; }
+.photobike4  { margin-left: 25px; margin-top: -25px; z-index:9; }
+.photobike5  { margin-left:350px; margin-top:-150px; z-index:8; }
+.photobike6  { margin-left:250px; margin-top: -15px; z-index:9; }
+.photobike7  { margin-left: 25px; margin-top: -15px; z-index:8; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/adm/milan-bike-exibition');
+
+include_once('templates/francescagiordano.php');
+
+?>

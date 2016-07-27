@@ -1,0 +1,36 @@
+<?php
+
+$title    = 'Tourist Trophy';
+
+$photos = array(
+  'kawasaki-tt-2|TT 1993 - Kawasaki 600',
+  'kawasaki-tt-1|TT 1993 - Kawasaki 600',
+  'yamaha-600-tt-96-1|TT 1996 - Yamaha 600',
+  'corkills',
+  'paddock-tt-92|TT 1992 - Paddocks',
+  'with-aprilia-tt-92|TT 1992 - Aprilia 125',
+  'yamaha-400-tt-96-1|TT 1996 - Yamaha 400',
+  'yamaha-400-tt-96-3|TT 1996 - Yamaha 400',
+  'yamaha-400-tt-96-2|TT 1996 - Yamaha 400',
+  'yamaha-600-tt-96-2|TT 1996 - Yamaha 600',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left: 25px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:350px; margin-top: -50px; z-index:8; }
+.photobike2  { margin-left: 50px; margin-top: -50px; z-index:8; }
+.photobike3  { margin-left:450px; margin-top:-180px; z-index:8; }
+.photobike4  { margin-left:  0px; margin-top:-140px; z-index:8; }
+.photobike5  { margin-left:300px; margin-top: -40px; z-index:8; }
+.photobike6  { margin-left:  0px; margin-top:   0px; z-index:9; }
+.photobike7  { margin-left:335px; margin-top:-250px; z-index:9; }
+.photobike8  { margin-left: 50px; margin-top: -75px; z-index:9; }
+.photobike9  { margin-left:300px; margin-top:-225px; z-index:9; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/tt-and-ireland/tt');
+
+include_once('templates/francescagiordano.php');
+
+?>

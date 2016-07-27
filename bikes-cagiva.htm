@@ -1,0 +1,46 @@
+<?php
+
+$title    = 'Cagiva Bikes';
+
+$photos = array(
+'cagiva01',
+'cagiva02',
+'cagiva03',
+'cagiva04',
+'cagiva05',
+'cagiva06',
+'cagiva07',
+'cagiva08',
+'cagiva112',
+'cagiva113',
+'cagiva114',
+'cagiva115',
+'cagiva116',
+'cagiva117',
+'dad_and_team',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:100px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:435px; margin-top:-300px; z-index:7; }
+.photobike2  { margin-left:250px; margin-top:-100px; z-index:7; }
+.photobike3  { margin-left:455px; margin-top:-155px; z-index:6; }
+.photobike4  { margin-left: 60px; margin-top:-375px; z-index:5; }
+.photobike5  { margin-left:150px; margin-top: -75px; z-index:5; }
+.photobike6  { margin-left:  0px; margin-top: -35px; z-index:3; }
+.photobike7  { margin-left:350px; margin-top:-375px; z-index:9; }
+.photobike8  { margin-left:200px; margin-top:-160px; z-index:2; }
+.photobike9  { margin-left:350px; margin-top: -30px; z-index:1; }
+.photobike10 { margin-left: 25px; margin-top:-230px; z-index:1; }
+.photobike11 { margin-left:400px; margin-top:-150px; z-index:9; }
+.photobike12 { margin-left:100px; margin-top:-150px; z-index:7; }
+.photobike13 { margin-left:350px; margin-top: -50px; z-index:7; }
+.photobike14 { margin-left: 25px; margin-top:-200px; z-index:9; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/bikes/cagiva');
+
+include_once('templates/francescagiordano.php');
+
+?>

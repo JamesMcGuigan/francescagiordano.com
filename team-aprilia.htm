@@ -1,0 +1,42 @@
+<?php
+
+$title    = 'Team life with Aprilia';
+
+$photos = array(
+
+
+  'team-life-02',
+  'team-life-03',
+  'team-life-04',
+  'team-life-05',
+	'team-life-01',
+  'team-life-08',
+  'team-life-06',
+  'team-life-07',
+	'team-practicing',
+  'practicing01',
+  'practicing02',
+
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:350px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left: 25px; margin-top:-100px; z-index:9; }
+.photobike2  { margin-left:350px; margin-top: -50px; z-index:8; }
+.photobike3  { margin-left: 25px; margin-top: -75px; z-index:8; }
+.photobike4  { margin-left:300px; margin-top: -25px; z-index:9; }
+.photobike5  { margin-left: 50px; margin-top:-100px; z-index:9; }
+.photobike6  { margin-left:300px; margin-top:-195px; z-index:9; }
+.photobike7  { margin-left:120px; margin-top:-125px; z-index:8; }
+.photobike8  { margin-left:325px; margin-top:-120px; z-index:7; }
+.photobike9  { margin-left: 25px; margin-top:  25px; z-index:4; }
+.photobike10 { margin-left:225px; margin-top: -20px; z-index:5; }
+
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/team/team-aprilia');
+
+include_once('templates/francescagiordano.php');
+
+?>

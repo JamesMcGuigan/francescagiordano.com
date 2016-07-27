@@ -1,0 +1,23 @@
+<?php
+
+$title    = 'Aprilia Bikes';
+
+$photos = array(
+'team_practicing',
+'practicing01',
+'practicing02',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:  0px; margin-top:   0px; z-index:5; }
+.photobike1  { margin-left:175px; margin-top: -25px; z-index:4; }
+.photobike2  { margin-left:350px; margin-top: -25px; z-index:3; }
+
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/bikes/aprilia');
+
+include_once('templates/francescagiordano.php');
+
+?>

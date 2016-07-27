@@ -1,0 +1,26 @@
+<?php
+
+$title    = 'Paddocks';
+
+$photos = array(
+  'paddock02',
+  'paddock-ferring',
+  'paddock-number',
+  'paddock-scrutiny',
+  'paddock-tt',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:  0px; margin-top:  80px; z-index:9; }
+.photobike1  { margin-left:375px; margin-top:-300px; z-index:9; }
+.photobike2  { margin-left: 50px; margin-top: -25px; z-index:9; }
+.photobike3  { margin-left:300px; margin-top:-300px; z-index:9; }
+.photobike4  { margin-left:175px; margin-top:  25px; z-index:9; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/paddocks');
+
+include_once('templates/francescagiordano.php');
+
+?>

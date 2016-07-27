@@ -1,0 +1,9 @@
+.photobike *     { float:none; }
+#dropout li ul   { left:95px; top:50px; }
+#dropout img     { padding-bottom:1.5em; }
+#dropout a span  {    margin-top:-1.95em; }
+#dropout         { margin-top:50px; }
+
+.photobike div     { display:inline;}
+.photobike-wrapper { width:725px; position:relative; text-align:center; display:table-cell; }
+.photobike0 { padding-top:25px; }

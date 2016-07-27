@@ -1,0 +1,34 @@
+<?php
+
+$title    = 'La Notte Della Moto';
+
+$photos = array(
+ 'with-giacomo-agostini|Francesca and <br/>Giacomo Agostini',
+ 'with-emanuela-folliero-and-giuseppe-ballabene|Emanuela Folliero, Francesca <br/>and Giuseppe Ballabene',
+ 'with-giacomo-agostini-and-giuseppe|Giacomo Agostini, Francesca <br/>and Giuseppe Ballabene',
+ 'with-marco-papa-and-giancarlo-falappa|Marco Papa, Francesca <br/>and Giancarlo Falappa',
+ 'with-giacomo-agostini-2|Giacomo Agostini and Francesca',
+ 'with-scalpi|Scalpi and Francesca',
+ 'giancarlo-falappa-and-giacomo-agostini|Giancarlo Falappa <br/>and Giacomo Agostini',
+ 'giacomo-agostini-and-daniele-agrati|Giacomo Agostini <br/>and Daniele Agrati',
+);
+
+$inline_style =<<<HTML
+.photobike0  { margin-left:100px; margin-top:   0px; z-index:9; }
+.photobike1  { margin-left:350px; margin-top:-330px; z-index:9; }
+.photobike2  { margin-left:175px; margin-top:  25px; z-index:9; }
+.photobike3  { margin-left:375px; margin-top:  25px; z-index:9; }
+.photobike4  { margin-left:  0px; margin-top:-330px; z-index:9; }
+.photobike5  { margin-left: 50px; margin-top: -25px; z-index:9; }
+.photobike6  { margin-left:350px; margin-top:-325px; z-index:9; }
+.photobike7  { margin-left:320px; margin-top: -25px; z-index:9; }
+HTML;
+
+$content .= "<div class='photobike'><img style='text-align:center;margin:20px auto 30px auto;' src='images/adm/la-notte-della-moto/invite01-700.jpg' width='700' height='234' border='0'></div>";
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/adm/la-notte-della-moto');
+
+include_once('templates/francescagiordano.php');
+
+?>

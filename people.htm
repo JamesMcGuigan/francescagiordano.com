@@ -1,0 +1,38 @@
+<?php
+
+$title    = 'People';
+
+$photos = array(
+  'with-jeoff-duke|Jeoff Duke and Francesca',
+  'with-loris-capirossi-and-fausto-gresini|Loris Capirossi, Francesca and Fausto Gresini',
+  'with-steve-hislop-at-creg-ny-baa|Francesca and Steve Hislop at Creg-ny-Baa',
+  'with-steve-hislop|Steve Hislop and Francesca',
+  'with-nick-jefferies|Nick Jefferies and Francesca',
+  'with-enzo-guglielmetti-and-franco-lenci|Enzo Guglielmetti, Francesca and Franco Lenci',
+  'with-armando-errico|Francesca and Armando Errico',
+  'with-domiziana|Francesca and Domiziana',
+  'with-giacomo-agostini|Giacomo Agostini and Francesca',
+  'with-emanuela-folliero-and-giuseppe-ballabene|Emanuela Folliero, Francesca and Giuseppe Ballabene',
+  'with-marco-papa-and-giancarlo-fala|Marco Papa, Francesca and Giancarlo Falappa',
+);
+
+$inline_style =<<<HTML
+.photobike0      { margin-left: 10px; margin-top:   0px; z-index:8; }
+.photobike1      { margin-left:375px; margin-top:-100px; z-index:9; }
+.photobike2      { margin-left:  0px; margin-top:-150px; z-index:7; }
+.photobike3      { margin-left:450px; margin-top:-100px; z-index:7; }
+.photobike4      { margin-left: 50px; margin-top:-225px; z-index:7; }
+.photobike5      { margin-left:375px; margin-top:  25px; z-index:7; }
+.photobike6      { margin-left:  0px; margin-top:-225px; z-index:7; }
+.photobike7      { margin-left:400px; margin-top: -50px; z-index:7; }
+.photobike8      { margin-left: 50px; margin-top:-275px; z-index:7; width:230px; }
+.photobike9      { margin-left:325px; margin-top: -75px; z-index:7; }
+.photobike10     { margin-left:  0px; margin-top:-150px; z-index:7; width:245px; }
+HTML;
+
+include_once('include/photobike.php');
+$content .= photobike($photos, 'images/people/people');
+
+include_once('templates/francescagiordano.php');
+
+?>
